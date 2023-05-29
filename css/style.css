@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-color{
+/*     min-height: 200px;
+ */    background-color: rgb(157, 223, 223);
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+}
+
+.nav-bar{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,.login{
+    width: 20%;
+}
+
+.menu{
+    text-align: center;
+   width: 60%;
+}
+
+.logo,.login,.menu{
+    padding: 20px 5px 20px 5px;
+    border: 2px dotted black;
+    background-color: rgb(253, 205, 146);
+}
+
+.login{
+    text-align: right;
+}
+
+
+.description-color{
+    background-color: rgb(47, 68, 144);
+}
+
+
+.site-description{
+    padding: 50px 0 50px 0;
+}
+
+.presentation{
+    background-color: rgb(221, 135, 185);
+    height: 240px;
+    width: 600px;
+    margin: auto;
+}
