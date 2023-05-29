@@ -83,5 +83,48 @@
     width: 100%;
     margin: auto;
     background-color: rgb(85, 196, 85);
-    height: 600px;
+    height: 550px;
+}
+
+.footer-bg{
+    background-color: rgb(18, 18, 18);
+}
+
+.contacts{
+    min-height: 450px;
+    display: flex;
+
+}
+
+.socialmedia{
+    border: 4px dotted black;
+    background-color: rgb(231, 129, 146);
+    flex-grow: 2 ;
+}
+
+.links{
+    flex-grow: 1;
+    border: 4px dotted black;
+    background-color: rgb(58, 204, 180);
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.final-bar{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+}
+
+
+.final-bar div{
+    border: 4px dotted black;
+    padding: 10px;
+    background-color: pink;
 }
